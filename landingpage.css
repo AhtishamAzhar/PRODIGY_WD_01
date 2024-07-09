@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #070707;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: red;
+  }
+  
+  section {
+    padding: 100px;
+    height: 100vh;
+  }
+  
+  #Home {
+    background-color: lightsteelblue;
+  }
+  
+  #About {
+    background-color: lightcyan;
+  }
+  
+  #Services {
+    background-color: lightgrey;
+  }
+  
+  #Contact {
+    background-color: lightgoldenrodyellow;
+  }
+  
